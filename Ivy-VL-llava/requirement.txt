@@ -1,0 +1,12 @@
+
+transformers>=4.30.0
+accelerate>=0.20.3
+pillow>=9.5.0
+requests>=2.31.0
+numpy>=1.23.0
+sentencepiece>=0.1.99
+gradio>=3.28.3
+tokenizers>=0.13.3
+scipy>=1.10.0
+
+#pytorch- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

@@ -1,0 +1,14 @@
+#Folders
+myenv
+llava-v1.6-mistral-7b-hf
+ivy_venv
+
+
+#files
+*.zip
+*.pdf
+*.png
+*.jpg
+*.pyc
+*.gguf
+*.env
