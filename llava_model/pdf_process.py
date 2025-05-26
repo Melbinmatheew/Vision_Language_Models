@@ -2,7 +2,7 @@ import os
 import argparse
 from pdf2image import convert_from_path
 
-def convert_pdf_to_images(pdf_path, output_dir=None, dpi=300, output_format='jpg'):
+def convert_pdf_to_images(pdf_path, output_dir=None, dpi=700, output_format='jpg'):
     """
     Convert a PDF file to high-resolution images.
     
@@ -53,7 +53,7 @@ def main():
     parser = argparse.ArgumentParser(description='Convert PDF to high-resolution images')
     parser.add_argument('pdf_path', help='Path to the PDF file')
     parser.add_argument('--output-dir', '-o', help='Output directory for images')
-    parser.add_argument('--dpi', '-d', type=int, default=300, 
+    parser.add_argument('--dpi', '-d', type=int, default=700, 
                         help='Resolution in DPI (higher values = higher quality)')
     parser.add_argument('--format', '-f', default='jpg', choices=['png', 'jpg', 'jpeg', 'tiff'],
                         help='Output image format')
